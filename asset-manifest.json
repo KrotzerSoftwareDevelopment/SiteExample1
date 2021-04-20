@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/SiteExample1/static/css/main.79a9f1d2.chunk.css",
-    "main.js": "/SiteExample1/static/js/main.fa7fc852.chunk.js",
-    "main.js.map": "/SiteExample1/static/js/main.fa7fc852.chunk.js.map",
-    "runtime-main.js": "/SiteExample1/static/js/runtime-main.9adcaa44.js",
-    "runtime-main.js.map": "/SiteExample1/static/js/runtime-main.9adcaa44.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/SiteExample1/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.846b39cf.chunk.js": "/SiteExample1/static/js/2.846b39cf.chunk.js",
-    "static/js/2.846b39cf.chunk.js.map": "/SiteExample1/static/js/2.846b39cf.chunk.js.map",
-    "index.html": "/SiteExample1/index.html",
-    "precache-manifest.b79560ed9b0e0fa840b6421323aa3869.js": "/SiteExample1/precache-manifest.b79560ed9b0e0fa840b6421323aa3869.js",
-    "service-worker.js": "/SiteExample1/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/SiteExample1/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.79a9f1d2.chunk.css.map": "/SiteExample1/static/css/main.79a9f1d2.chunk.css.map",
-    "static/js/2.846b39cf.chunk.js.LICENSE.txt": "/SiteExample1/static/js/2.846b39cf.chunk.js.LICENSE.txt",
-    "static/media/PortfolioPic.png": "/SiteExample1/static/media/PortfolioPic.89ae5b55.png",
-    "static/media/RussoOne-Regular.ttf": "/SiteExample1/static/media/RussoOne-Regular.537d299a.ttf",
-    "static/media/bg.png": "/SiteExample1/static/media/bg.a5e1da9b.png"
+    "main.css": "./static/css/main.33e61514.chunk.css",
+    "main.js": "./static/js/main.b2fa0e20.chunk.js",
+    "main.js.map": "./static/js/main.b2fa0e20.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8704fa20.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8704fa20.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "./static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.846b39cf.chunk.js": "./static/js/2.846b39cf.chunk.js",
+    "static/js/2.846b39cf.chunk.js.map": "./static/js/2.846b39cf.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.119a6389ae7992bd7683f7577579dd9a.js": "./precache-manifest.119a6389ae7992bd7683f7577579dd9a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "./static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.33e61514.chunk.css.map": "./static/css/main.33e61514.chunk.css.map",
+    "static/js/2.846b39cf.chunk.js.LICENSE.txt": "./static/js/2.846b39cf.chunk.js.LICENSE.txt",
+    "static/media/PortfolioPic.png": "./static/media/PortfolioPic.89ae5b55.png",
+    "static/media/RussoOne-Regular.ttf": "./static/media/RussoOne-Regular.537d299a.ttf",
+    "static/media/bg.png": "./static/media/bg.a5e1da9b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9adcaa44.js",
+    "static/js/runtime-main.8704fa20.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.846b39cf.chunk.js",
-    "static/css/main.79a9f1d2.chunk.css",
-    "static/js/main.fa7fc852.chunk.js"
+    "static/css/main.33e61514.chunk.css",
+    "static/js/main.b2fa0e20.chunk.js"
   ]
 }
