@@ -1,0 +1,416 @@
+
+
+/* Whole App */
+#PageContent{
+  animation-duration: 2s;
+  animation-name: slideup;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 2vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+.bgStyle{
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+.pages {
+  position: relative;
+}
+.container {
+  position: center;
+  margin-top: 12vw;
+  position: relative;
+  margin-bottom: 0vh;
+}
+.Intro{
+  background-color: white;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: black;
+}
+.IntroMirrored{
+  background-color: black;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: white;
+}
+.PageBody{
+  font-family: 'RussoOne-Regular';
+  animation-duration: .5s;
+  animation-name: slideinright;
+  color: white ;
+  margin-top: 2vh;
+  padding: 2vw;
+}
+.containertwo{
+  position: relative;
+  margin-right: 20vw;
+}
+
+
+/* Animation KeyFrames for App*/
+ @keyframes slidein {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(100%, 0%, 0px);
+    
+}
+
+100% {
+  animation-duration: 1s;
+    transform: translate3d(0%, 0%, 0px);
+}
+} 
+
+@keyframes slideout {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(0%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(100%, 0%, 0px);
+}
+}
+
+@keyframes slideinright {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(-100%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+@keyframes slideinleft {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(100%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+
+@keyframes slidedown {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(-20%, -100%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+@keyframes slideup {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(0%, 100%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+/* End of Keyframe Animations */
+.email{
+  font-size: x-small;
+}
+#Crypto{
+  text-align: center;
+  font-size: x-small;
+}
+li{
+    list-style-type: none;
+}
+/* Home */  
+.Frontpic{
+  margin-top: -20vh;;
+  width: 70vw;
+  margin-left: -2vw;
+}
+/* About */
+.Cards{
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  background-position: center center;
+  box-shadow: 0px 4px 100px -5px rgba(0, 0, 0, 0.3);
+ }
+
+.card {
+  animation-duration: 2s;
+  animation-name: slideup;
+  display: block;
+  margin-top: 0vh;
+  margin-bottom: 5vh;
+  position: relative;
+  width: 45vw;
+  height: 50vw;
+  background: grey;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+}
+.CardText{
+  height: auto;
+}
+.portContainer{
+  position: absolute;
+  display: flex;  
+}
+
+ .Portpic{
+  position: relative;
+  z-index: 20;
+  margin-left: 6vw;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20vw;
+  border-radius: 80vw;
+  border-right: 1px;
+  border-style: solid;
+  border-right-color: white;
+} 
+
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
+
+
+
+
+#Title{
+
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+#iconTitle{
+    background-color: blanchedalmond;
+}
+
+
+
+#SubTitle{
+    font-size: x-large;
+    
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.aboutText{
+  margin-top: 10vh;
+  margin-bottom: 4vh;
+}
+
+/*
+Footer
+*/
+
+.Footer {
+    margin-bottom: 0px;
+}
+#copyRight {
+    font-family: 'RussoOne-Regular';
+    position: fixed;
+    bottom: -15px;
+    width: 100vw;
+    background-color: White;
+    color:black;
+    text-align: center;
+}
+
+
+/* Mobile */
+@media only screen and (min-width:320px) and (max-width:558px) {
+  .containertwo{
+    width: 80vw;
+    position: relative;
+    margin-top: 39vw;
+    z-index: 10;
+  }
+  .aboutText{
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+  }
+ 
+  .Card  {
+    animation-duration: 2s;
+    animation-name: slideup;
+    display: block;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+    width: 100vw;
+    height: 70vw;
+    background: grey;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+  }
+  .Cards{
+   border-style: solid;
+   /* border-color: blue; */
+   border-width: 1px;
+  }
+  .Portpic{
+   width: 40vw;
+    z-index: 20;
+    margin-left: 12vw;
+    border-radius: 0vw;
+    border-right: 1px;
+    border-style: solid;
+    border-right-color: white;
+  } 
+  .Frontpic{
+    margin-top: -5vh;;
+    width: 70vw;
+    margin-left: -2vw;
+  }
+}
+.projectCard{
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+}
+/* Bigger Phones and Smaller Tablets */
+@media only screen and (min-width:559px) and (max-width:900px)  {
+
+
+  /* .card {
+    animation-duration: 2s;
+    animation-name: slideup;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100vw;
+    height: 50vw;
+    background: grey;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+  } */
+  .containertwo{
+    width: 80vw;
+    position: relative;
+    margin-top: 9vw;
+    z-index: 10;
+  }
+  .aboutText{
+    margin-top: 0vh;;
+  }
+  .Frontpic{
+    margin-top: -9vh;
+    width: 70vw;
+    margin-left: 0vw;
+  }
+
+ .Portpic{
+  width: 15vw;
+  position: relative;
+  z-index: 20;
+  margin-left: 6vw;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  border-radius: 80vw;
+  border-right: 1px;
+  border-style: solid;
+  border-right-color: white;
+} 
+  
+}
+/* Tablets */
+@media screen and (min-width:901px) and (max-width:1200px) {
+ 
+  /* Home */
+  .Frontpic{
+    margin-top: -9vh;
+    width: 70vw;
+    margin-left: 0vw;
+  }
+}
+
+/* About */
+
+/* .card {
+  animation-duration: 2s;
+  animation-name: slideup;
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 20vw;
+  height: 50vw;
+  background: grey;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid white;
+} */
+
+.Portpic{
+  position: relative;
+  z-index: 20;
+  margin-left: 6vw;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  border-radius: 80vw;
+  border-right: 1px;
+  border-style: solid;
+  border-right-color: white;
+} 
+.aboutText{
+  margin-top: 5vh;;
+}
+.card:hover {
+  box-shadow: 0px 50px 150px -10px rgba(0, 0, 0, 0.4);
+}
+.PageBodyAbout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f0f0f0;
+}

@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sat May 02 2020 13:26:11 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+
+
+Created files:
+* .autogit/autogit.json
+
+
+Deleted files:
+
+
+Renamed files:

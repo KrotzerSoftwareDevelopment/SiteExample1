@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 03 2020 05:50:44 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/App.js
+* src/FilePages/Styles.css
+
+
+Created files:
+* .autogit/logs/log-2-4-2020-19-47-48.txt
+* src/clock.scss
+
+
+Deleted files:
+* package-lock.json
+
+
+Renamed files:
